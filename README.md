@@ -1,4 +1,0 @@
-aur
-===
-
-contains aur scripts
