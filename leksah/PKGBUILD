@@ -23,7 +23,7 @@ makedepends=('ghc'
     'haskell-hslogger>=1.0.7' 'haskell-hslogger<1.2'
     'haskell-leksah-server>=0.12.1.2' 'haskell-leksah-server<0.13'
     'haskell-ltk>=0.12.1' 'haskell-ltk<0.13'
-    'haskell-mtl>=1.1.0.2' 'haskell-mlt<2.2'
+    'haskell-mtl>=1.1.0.2' 'haskell-mtl<2.2'
     'haskell-network>=2.2' 'haskell-network<3.0'
     'haskell-old-time>=1.0.0.1' 'haskell-old-time<1.2'
     'haskell-parsec>=2.1.0.1' 'haskell-parsec<3.2'
@@ -31,10 +31,10 @@ makedepends=('ghc'
     'haskell-regex-base>0.93' 
     'haskell-regex-tdfa>=1.1' 
     'haskell-time>=0.1' 'haskell-time<1.5'
-    'haskell-unixi>=2.3.1' 'haskell-unix<2.6'
+    'haskell-unix>=2.3.1' 'haskell-unix<2.6'
     'haskell-utf8-string>=0.3.1.1' 'haskell-utf8-string<0.4'
     'haskell-gio>=0.12.2' 'haskell-gio<0.13'
-    'haskell-quickcheck>=2.4.2' 'haskell-guickcheck<2.5'
+    'haskell-quickcheck>=2.4.2' 'haskell-quickcheck<2.5'
     'haskell-strict>=0.3.2' 'haskell-strict<2.6')
 depends=('gmp')
 options=('strip')
@@ -48,4 +48,4 @@ package() {
     cd ${srcdir}/${_hkgname}-${pkgver}
     runhaskell Setup copy --destdir=${pkgdir}
 }
-md5sums=('eece1b07b4ca834398d10d447474b249')
+md5sums=('7b239fbcd67d969890e299fb7afb5985')
