@@ -2,7 +2,7 @@
 _hkgname=attoparsec-enumerator
 pkgname=haskell-attoparsec-enumerator
 pkgver=0.3
-pkgrel=1
+pkgrel=2
 pkgdesc="Pass input from an enumerator to an Attoparsec parser."
 url="http://hackage.haskell.org/package/${_hkgname}"
 license=('custom:MIT')

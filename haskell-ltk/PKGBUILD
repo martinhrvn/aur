@@ -2,7 +2,7 @@
 _hkgname=ltk
 pkgname=haskell-ltk
 pkgver=0.12.1.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Leksah tool kit"
 url="http://hackage.haskell.org/package/${_hkgname}"
 license=('GPL')
